@@ -1,3 +1,3 @@
 function showDetails(packageName, price) {
-  alert(`You selected the "${packageName}" package.\nPrice: $${price}\nWe will contact you soon!`);
+  alert(`🎉 You selected the "${packageName}" package.\n💲 Price: $${price}\n📧 We’ll contact you soon!`);
 }
