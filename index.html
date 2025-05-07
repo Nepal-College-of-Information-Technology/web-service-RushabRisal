@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>World Explorer - Travel Agency</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>World Explorer</h1>
+    <nav>
+      <ul>
+        <li><a href="#japan">Japan</a></li>
+        <li><a href="#italy">Italy</a></li>
+        <li><a href="#australia">Australia</a></li>
+        <li><a href="#brazil">Brazil</a></li>
+        <li><a href="#egypt">Egypt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="country" id="japan">
+      <h2>Japan</h2>
+      <div class="package">
+        <h3>Tokyo Explorer</h3>
+        <p>5 Days | $1200 | Includes flights, hotel, city tours</p>
+        <button onclick="showDetails('Tokyo Explorer', 1200)">Book Now</button>
+      </div>
+    </section>
+
+    <section class="country" id="italy">
+      <h2>Italy</h2>
+      <div class="package">
+        <h3>Romantic Rome</h3>
+        <p>6 Days | $1500 | Flights, hotel, guided tours</p>
+        <button onclick="showDetails('Romantic Rome', 1500)">Book Now</button>
+      </div>
+    </section>
+
+    <section class="country" id="australia">
+      <h2>Australia</h2>
+      <div class="package">
+        <h3>Sydney Adventure</h3>
+        <p>7 Days | $1800 | City + Nature combo package</p>
+        <button onclick="showDetails('Sydney Adventure', 1800)">Book Now</button>
+      </div>
+    </section>
+
+    <section class="country" id="brazil">
+      <h2>Brazil</h2>
+      <div class="package">
+        <h3>Rio Carnival Special</h3>
+        <p>4 Days | $1300 | Festival + City sightseeing</p>
+        <button onclick="showDetails('Rio Carnival Special', 1300)">Book Now</button>
+      </div>
+    </section>
+
+    <section class="country" id="egypt">
+      <h2>Egypt</h2>
+      <div class="package">
+        <h3>Pyramids and Nile</h3>
+        <p>5 Days | $1100 | Ancient history tour</p>
+        <button onclick="showDetails('Pyramids and Nile', 1100)">Book Now</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 World Explorer. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
